@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <TextView
+        android:id="@+id/viewNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_nombre" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:labelFor="@+id/viewNombre"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <TextView
+    android:id="@+id/viewEdad"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/hint_edad" />
+
+    <EditText
+        android:id="@+id/txtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:labelFor="@+id/viewEdad"
+        android:inputType="number"
+        android:textSize="24sp" />
+
+    <TextView
+    android:id="@+id/viewMedicamento"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/hint_medicamento" />
+
+    <EditText
+        android:id="@+id/txtMedicamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:labelFor="@+id/viewMedicamento"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <TextView
+    android:id="@+id/viewDosis"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/hint_dosis" />
+
+    <EditText
+        android:id="@+id/txtDosis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:labelFor="@+id/viewDosis"
+        android:inputType="number"
+        android:textSize="24sp" />
+
+    <TextView
+    android:id="@+id/viewAdministracion"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/hint_administracion" />
+
+    <EditText
+        android:id="@+id/txtAdministracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:labelFor="@+id/viewAdministracion"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <TextView
+    android:id="@+id/viewHora_administracion"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/hint_hora_administracion" />
+
+    <EditText
+        android:id="@+id/txtHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:labelFor="@+id/viewHora_administracion"
+        android:inputType="none"
+        android:textSize="24sp"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+    <Button
+        android:id="@+id/btnGuarda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnGuarda"
+        android:textSize="24sp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:clickable="true"
+        android:src="@drawable/edit" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:clickable="true"
+        android:src="@drawable/delete" />
+
+
+
+</LinearLayout>

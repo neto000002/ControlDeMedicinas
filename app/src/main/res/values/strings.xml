@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ControlMedicinas</string>
+    <string name="hint_nombre">Nombre:</string>
+    <string name="hint_edad">Edad:</string>
+    <string name="hint_medicamento">Medicamento:</string>
+    <string name="hint_dosis">Dosis:</string>
+    <string name="hint_administracion">Administracion:</string>
+    <string name="hint_hora_administracion">Hora administracion:</string>
+    <string name="btnGuarda">Guardar Registro</string>
+    <string name="menu_nuevo">Nuevo Registro</string>
+    <string name="btnCamara">Camara</string>
+</resources>
